@@ -1,4 +1,4 @@
-/* -------------------------------- 
+/* --------------------------------
 
 Primary style
 
@@ -21,7 +21,8 @@ html * {
 body {
   font-size: 100%;
   font-family: "Roboto", sans-serif;
-  color: #878cb0;
+  font-weight: bold;
+  color: #f9f9f9; /* #878cb0 */
   background-color: #41f4c4;   /* 3f435f  */
 }
 
@@ -38,7 +39,7 @@ h1, h2 {
   color: #ffffff;
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
 Modules - reusable parts of our design
 
@@ -50,8 +51,8 @@ Modules - reusable parts of our design
   font-weight: bold;
   font-size: 12px;
   font-size: 0.75rem;
-  color: #ffffff;   /* #fffff */
-  background-color: #41f4c4;    /* #696f9b   */
+  color: #000;   /* #fffff */
+  background-color: #fff;    /* #696f9b   */
   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1), inset 0 1px 0 rgba(255, 255, 255, 0.2);
   -webkit-transition: background-color 0.2s;
   -moz-transition: background-color 0.2s;
@@ -61,7 +62,9 @@ Modules - reusable parts of our design
   background-color: #787ea5;
 }
 .btn.salmon {
-  background-color: #f58780;
+  background-color: #4286f4;
+  color: #fff;
+
 }
 .no-touch .btn.salmon:hover {
   background-color: #f79d98;
@@ -74,9 +77,9 @@ Modules - reusable parts of our design
   }
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
-Main components 
+Main components
 
 -------------------------------- */
 html, body {
